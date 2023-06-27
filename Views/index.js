@@ -53,6 +53,7 @@ const readInDb = async(req, res) => {
     const Gn_Mth = mongoose.model('GN_Mth', GN_Mth_schemma);
     let data = await Gn_Mth.find();
     console.log(data);
+
 };
 
 readInDb();
